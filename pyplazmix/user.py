@@ -1,4 +1,4 @@
-from .ext.enums import Permissions, Badges
+from .enums import Permissions, Badges
 
 
 # user
