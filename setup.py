@@ -12,7 +12,7 @@ requirement = [
 
 packages = [
 	'pyplazmix',
-	'pyplazmix.ext.enums'
+	'pyplazmix.ext'
 ]
 
 setup(
@@ -20,7 +20,7 @@ setup(
 	author="The Singularity",
 	url="https://github.com/TheStngularity/pyplazmix",
 	packages=packages,
-	version="0.0.3",
+	version="0.0.4",
 	description="A python wrapper for PlazmixAPI",
 	long_description=readme,
 	long_description_content_type="text/markdown",
