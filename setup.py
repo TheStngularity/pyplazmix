@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 readme = ''
@@ -14,6 +14,7 @@ setup(
 	name="pyplazmix",
 	author="The Singularity",
 	url="https://github.com/TheStngularity/pyplazmix",
+	packages=find_packages(),
 	version="0.0.2",
 	description="A python wrapper for PlazmixAPI",
 	long_description=readme,
