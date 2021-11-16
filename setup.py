@@ -15,7 +15,7 @@ setup(
 	author="The Singularity",
 	url="https://github.com/TheStngularity/pyplazmix",
 	packages=find_packages(),
-	version="0.0.2",
+	version="0.0.3",
 	description="A python wrapper for PlazmixAPI",
 	long_description=readme,
 	long_description_content_type="text/markdown",
