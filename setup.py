@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 readme = ''
@@ -10,11 +10,16 @@ requirement = [
 	"ujson"
 ]
 
+packages = [
+	'pyplazmix',
+	'pyplazmix.ext.enums'
+]
+
 setup(
 	name="pyplazmix",
 	author="The Singularity",
 	url="https://github.com/TheStngularity/pyplazmix",
-	packages=find_packages(),
+	packages=packages,
 	version="0.0.3",
 	description="A python wrapper for PlazmixAPI",
 	long_description=readme,
