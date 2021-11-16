@@ -13,6 +13,7 @@ requirement = [
 setup(
 	name="pyplazmix",
 	author="The Singularity",
+	url="https://github.com/TheStngularity/pyplazmix",
 	version="0.0.1",
 	description="A python wrapper for PlazmixAPI",
 	long_description=readme,
