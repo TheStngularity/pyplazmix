@@ -1,5 +1,5 @@
 from requests_html import AsyncHTMLSession
-from .ext import *
+from .enums import *
 import ujson
 from .user import User
 from .moderator_alert import ModeratorAlert
