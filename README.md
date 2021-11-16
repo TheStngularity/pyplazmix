@@ -1,6 +1,6 @@
 # PyPlazmix - A python wrapper for PlazmixAPI
 # Installing
-**• Python 3.9 or higher is required**
+**Python 3.9 or higher is required**
 ## For windows
 ```py
 pip install pyplazmix
