@@ -11,8 +11,7 @@ requirement = [
 ]
 
 packages = [
-	'pyplazmix',
-	'pyplazmix.ext'
+	'pyplazmix'
 ]
 
 setup(
